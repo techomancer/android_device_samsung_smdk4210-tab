@@ -16,7 +16,6 @@
 
 # include a bunch of resources
 PRODUCT_AAPT_CONFIG := normal large xlarge mdpi tvdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := tvdpi
 PRODUCT_LOCALES += mdpi tvdpi hdpi
 
 # Init files
@@ -89,6 +88,7 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     librs_jni \
     Torch \
+    macloader \
     bccmd \
     Smdk4210TabSettings
 
